@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;800&family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Aziz Naufal - Junior Front End Web Developer</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="fixed w-full top-0 left-0 flex">
+        <div class="flex w-full justify-between items-center relative bg-white border-b p-4 dark:bg-extraDarkSecondary dark:border-b-zinc-700 ">
+            <button id="hamburger" class="scale-75 mx-4 md:hidden">
+                <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+            <div class="flex md:w-full md:justify-center md:mx-auto">
+                <div class="flex md:w-[80%] xl:w-[65%]">
+                    <nav id="nav-menu" class="md:flex md:top-0 md:h-0 md:static hidden absolute top-full left-0 bg-white dark:bg-extraDarkSecondary w-full h-screen">
+                        <ul class="md:flex justify-between font-semibold text-dark dark:text-gray-100">
+                            <li class="mx-5 md:py-0 py-1 border-b dark:border-b dark:border-zinc-700 md:border-none"><a class="py-4 md:py-0 w-full flex hover:opacity-70 transition duration-300 ease-in-out" href="#home">Home</a></li>
+                            <li class="mx-5 md:py-0 py-1 border-b dark:border-b dark:border-zinc-700 md:border-none"><a class="py-4 md:py-0 w-full flex hover:opacity-70 transition duration-300 ease-in-out" href="#home">About</a></li>
+                            <li class="mx-5 md:py-0 py-1 border-b dark:border-b dark:border-zinc-700 md:border-none"><a class="py-4 md:py-0 w-full flex hover:opacity-70 transition duration-300 ease-in-out" href="#home">Skill</a></li>
+                            <li class="mx-5 md:py-0 py-1 border-b dark:border-b dark:border-zinc-700 md:border-none"><a class="py-4 md:py-0 w-full flex hover:opacity-70 transition duration-300 ease-in-out" href="#home">Project</a></li>
+                            <li class="mx-5 md:py-0 py-1 border-b dark:border-b dark:border-zinc-700 md:border-none"><a class="py-4 md:py-0 w-full flex hover:opacity-70 transition duration-300 ease-in-out" href="#home">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <input type="checkbox" class="hidden" id="dark-toggle">
+                    <label for="dark-toggle" class="flex justify-end mx-5 scale-90">
+                        <div class="flex h-6 w-11 cursor-pointer items-center rounded-full bg-slate-500 p-[4px]">
+                            <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+
+    <!--Body -->
+    <section class="bg-gray-100 dark:bg-extraDark">
+        <div class="w-full h-screen flex flex-wrap items-center justify-center">
+            <div class="flex flex-col justify-center text-center items-center md:flex-row-reverse">
+                <div class="order-2 mt-4 text-dark md:flex md:flex-col md:items-start md:mr-5 lg:mr-32">
+                    <h1 class="font-extrabold text-5xl dark:text-gray-100">Aziz Naufal</h1>
+                    <h2 class="font-bold text-xl gradient-blue-red">Junior Front-End Developer</h2>
+                    <p class="mt-2 font-semibold text-base dark:text-gray-100">Hi everyone 👋, welcome to my Portofolio Website</p>
+                </div>
+                <div class="order-1">
+                    <img src="dist/img/body/gw.png" class="w-52">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Body -->
+
+    <!-- footer -->
+    <footer class="fixed w-full bottom-0 left-0 flex">
+        <div class="flex items-center p-3 border-t bg-white dark:bg-extraDarkSecondary dark:border-t-zinc-700 w-full text-center">
+            <p class="mx-auto text-xs font-semibold text-dark dark:text-gray-100">Copyright © 2023 - All Right Reserved by Aziz Naufal</p>
+        </div>
+    </footer>
+    <!-- footer -->
+
+<script src="dist/js/script.js"></script>
+</body>
+</html>
