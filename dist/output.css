@@ -924,6 +924,14 @@ video {
   width: 0.25rem;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1442,6 +1450,10 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2759,6 +2771,10 @@ body {
     }
   }
 
+  .sm\:gap-1 {
+    gap: 0.25rem;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -2806,6 +2822,10 @@ body {
     width: 13rem;
   }
 
+  .md\:w-48 {
+    width: 12rem;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -2824,6 +2844,10 @@ body {
 
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:gap-2 {
+    gap: 0.5rem;
   }
 
   .md\:border-none {
